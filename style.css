@@ -1,0 +1,31 @@
+.header{
+    background-color:palevioletred;
+}
+.about{
+    background-color: rgb(204, 228, 236);
+}
+.home{
+    background-color: rgb(186, 207, 186);
+}
+.service{
+    background-color: lightgrey;
+}
+.Experience{
+    background-color: rgb(173, 156, 149);
+}
+.edu{
+    background-color:#e9d9e6;
+}
+.skill{
+    background-color: linen;
+}
+.body{
+   font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.footer{
+    background-color: palevioletred;
+}
+.underline{
+    color: indigo;
+}
+
