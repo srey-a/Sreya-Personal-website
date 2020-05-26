@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 <body>
-    <header class="bg-info" style="position: fixed; width: 100%; z-index: 1;">
+    <header class="header" style="position: fixed; width: 100%; z-index: 1;">
         <div class="row text-white">
             <div class="col-md-6 col-9 p-3 pl-5">
                 <h2>SREYA</h2>
@@ -19,20 +19,29 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link text-white" href="#home-section">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="#service-section">Services</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="#experience-section">Experience</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white" href="#contact-section">Contact me</a>
-                    </li>
-                  </ul>
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link text-white" href="# home-section">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#about-section">About</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#service-section">Service</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#education-section">Education</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#experience-section">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#skill-section">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="#contact-section">Contact me</a>
+                        </li>
+                      </ul>
                 </div>
               </nav>
             </div>
@@ -40,171 +49,196 @@
     </header>
 
 
-    <section id="home-section" style="padding-top: 12ex;"> 
+    <section id="home-section" class="home" style="padding-top: 12ex;"> 
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-6">
-            <img src="https://instagram.fcok2-1.fna.fbcdn.net/v/t51.2885-19/s320x320/95923122_831544387354547_7077087191536500736_n.jpg?_nc_ht=instagram.fcok2-1.fna.fbcdn.net&_nc_ohc=Nr2cpnHCXcYAX_OtRqL&oh=08f8461e8784232c412d65db7a0d1039&oe=5EEBF5A7"
-             alt="" class="img-fluid rounded-circle">
-          </div>
-          <div class="col-md-6">
-            <h4 class="pt-4">Student at Govt arts and science college,<br>
-              Tanur,Malappuram</h4>
-              <p>"Dream without fear love without limits"</p>
-              <footer>-sreya</footer>
-          </div>
+            <P><i>"Design is not just what it
+                Looks like and feels<br> like.
+                Design is how it works."</i></P>
+                <footer>-Steve Jobs</footer>
         </div>
       </div>
     </section>
 
-    <section class="bg-light p-5"  id="service-section">
+    
+    <section id="about-section" class="about"  style="padding-top: 12ex;">
+        <div class="container">
+          <div class="row align-items-Center">
+            <div class="col-md-6">
+              <img src="https://instagram.fcok2-1.fna.fbcdn.net/v/t51.2885-19/s320x320/95923122_831544387354547_7077087191536500736_n.jpg?_nc_ht=instagram.fcok2-1.fna.fbcdn.net&_nc_ohc=gbA19S7EOhsAX9iweCF&oh=645e6c404241138d9f8ec77fd054688d&oe=5EF3DEA7"
+              alt="" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-6">
+              <h4><i>MYSELF</i></h4>
+              <p class="pt-4"><i>I am sreya.I am basically from Malappuram,but currently residing at A.R.Nagar in Kollapuram.
+                <br>I have completed my senior secondary education from a aided school in Malappuram,and right now I am 
+                pursuing BCA from Calicut University in Tanur.<br>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+  
+
+    <section class="service p-5"  id="service-section">
       <div class="container">
         <h1 class="text-center">Services</h1>
         <div class="row">
           <div class="col-md-4  mt-3">
             <div class="card text-center p-3">
-            <i class="fas fa-business-time display-1 text-info"></i>
+                <i class="fas fa-pencil-ruler display-1 about"></i>
             <div class="card-body">
-              <h5 class="card-title">Marketing</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h5 class="card-title">Web designing</h5>
+              <p class="card-text">Freelance works on both static and dynamic websites using HTML,CSS,JAVASCRIPT etc.</p>
             </div>
           </div>
         </div>
 
         <div class="col-md-4  mt-3">
           <div class="card text-center p-3">
-          <i class="fas fa-business-time display-1 text-info"></i>
+            <i class="fas fa-code display-1 about"></i>
           <div class="card-body">
-            <h5 class="card-title">IT Consulting</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <h5 class="card-title">Programmer</h5>
+            <p class="card-text">Handles Programming languages Java,SQL,<br>Javascript,HTML,C++ etc.</p>
           </div>
         </div>
       </div>
 
       <div class="col-md-4  mt-3">
         <div class="card text-center p-3">
-        <i class="fas fa-business-time display-1 text-info"></i>
+         <i class="fas fa-eraser display-1 about"></i>
         <div class="card-body">
-          <h5 class="card-title">Business Consulting</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <h5 class="card-title">Art work</h5>
+          <p class="card-text">Creating objects to decorate our surroundings has motivated the creation of many types of art.</p>
         </div>
       </div>
     </div>
      </div>
 
-
-    <div class="row pt-3  mt-3">
-    <div class="col-md-4">
-      <div class="card text-center p-3">
-      <i class="fas fa-business-time display-1 text-info"></i>
-      <div class="card-body">
-        <h5 class="card-title">Branding</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="col-md-4  mt-3">
-    <div class="card text-center p-3">
-    <i class="fas fa-business-time display-1 text-info"></i>
-    <div class="card-body">
-      <h5 class="card-title">Sales</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4  mt-3">
-  <div class="card text-center p-3">
-  <i class="fas fa-business-time display-1 text-info"></i>
-  <div class="card-body">
-    <h5 class="card-title">Business Development</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-  </div>
-</div>
-</div>
       </div>
       </div>
     </section>
 
-    <section class="bg-white p-5" id="experience-section">
-      <div class="container">
-        <h1 class="text-center">Experiences</h1>
-        <div class="row p-3">
-          <div class="col-md-4 mt-3">
-            <div class="card text-center p-3" style="height: 25em;">
-           <img src="https://lh3.googleusercontent.com/proxy/klYx0ZGhjnFhVc1RtTVjnbwJSIH32x4oHBGq1VbnS4wsR__VBcUyp5LclKSH89Ff2OwqZEBoimc80Jwl2-4KgVB7r3R2D0KyUwStatPYdmaZ7tXigw7UW_JI73s"
-           class="card-image-top" alt="">
-            <div class="card-body">
-              <h5 class="card-title">Card-Name</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <section class="edu p-5" id="education-section">
+        <div class="container">
+          <h1 class="text-center">Education</h1>
+          <div class="row p-3">
+            <div class="col-md-12 mt-3">
+              <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <div class="card-header">It is still going on</div>
+                <div class="card-body">
+                  <h5 class="card-title">Govt college Tanur</h5>
+                  <p class="card-text">Right now I am pursuing BCA from Calicut university in Tanur.</p>
+                </div>
+              </div>
+              <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+                <div class="card-header">2017-2018</div>
+                <div class="card-body">
+                  <h5 class="card-title">KMHSS KUtttor North</h5>
+                  <p class="card-text">I have completed my highersecondary education from a aided school in Malappuram.</p>
+                </div>
+              </div>
+              <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                <div class="card-header">2005-2016</div>
+                <div class="card-body">
+                  <h5 class="card-title">ARNHSS Chendappuraya</h5>
+                  <p class="card-text">I completed my schooling from an aided school in Malappuram.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+  
 
-        <div class="col-md-4 mt-3">
-          <div class="card text-center p-3" style="height: 25em;">
-         <img src="crossroads.jpg"
-         class="card-image-top" alt="" style="height: 13em;">
-          <div class="card-body">
-            <h5 class="card-title">Crossroads</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-        </div>
-      </div>
+    <section class="Experience p-5" id="experience-section">
+      <div class="container">
+        <h1 class="text-center">Experiences</h1>
+        <div class="row p-3">
 
-      <div class="col-md-4  mt-3">
-        <div class="card text-center p-3" style="height: 25em;">
-       <img src="crossroads.jpg"
-       class="card-image-top" alt="" style="height: 13em;">
-        <div class="card-body">
-          <h5 class="card-title">Crossroads</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-        </div>
-
-    <div class="row p-3">
-    <div class="col-md-4  mt-3">
-      <div class="card text-center p-3" style="height: 25em;">
-     <img src="crossroads.jpg"
-     class="card-image-top" alt="" style="height: 13em;">
-      <div class="card-body">
-        <h5 class="card-title">Crossroads</h5>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-      
-
-  <div class="col-md-4  mt-3">
-    <div class="card text-center p-3" style="height: 25em;">
-   <img src="crossroads.jpg"
-   class="card-image-top" alt="" style="height: 13em;">
-    <div class="card-body">
-      <h5 class="card-title">Crossroads</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    </div>
-  </div>
-</div>
-
+    
 <div class="col-md-4  mt-3">
-  <a href="https://www.100k.live" style="text-decoration: none; color: rgba(16, 53, 5, 0.836);">
+  <a href="https://youtu.be/wt1XpgLq1fo" style="text-decoration: none; color:navy;">
   <div class="card text-center p-3" style="height: 25em;">
- <img src="crossroads.jpg"
+ <img src="https://media-exp1.licdn.com/dms/image/sync/C5127AQGmdswUZUGYPg/articleshare-shrink_800/0?e=1590566400&v=beta&t=CLHik-80TgLXVmEfyi2-OTPgpwyys-z1LoNoEwqm5dE"
  class="card-image-top" alt="" style="height: 13em;">
   <div class="card-body">
     <h5 class="card-title">Crossroads</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <p class="card-text">Completed 10 Days web Design Challenge</p>
   </div>
 </div>
 </a>
 </div>
+
+<div class="col-md-4  mt-3">
+    <a href="https://www.100k.live" style="text-decoration: none; color:navy">
+    <div class="card text-center p-3" style="height: 25em;">
+   <img src="https://media-exp1.licdn.com/dms/image/sync/C5127AQGmdswUZUGYPg/articleshare-shrink_800/0?e=1590566400&v=beta&t=CLHik-80TgLXVmEfyi2-OTPgpwyys-z1LoNoEwqm5dE"
+   class="card-image-top" alt="" style="height: 13em;">
+    <div class="card-body">
+      <h5 class="card-title">Crossroads</h5>
+      <p class="card-text">Completed 10 Days 100k coding Challenge</p>
+    </div>
+  </div>
+  </a>
+  </div>
+
+  <div class="col-md-4  mt-3">
+    <a href="https://www.youtube.com/watch?v=CHujhkCxyIM" style="text-decoration: none; color:navy">
+    <div class="card text-center p-3" style="height: 25em;">
+   <img src="https://media-exp1.licdn.com/dms/image/sync/C5127AQGmdswUZUGYPg/articleshare-shrink_800/0?e=1590566400&v=beta&t=CLHik-80TgLXVmEfyi2-OTPgpwyys-z1LoNoEwqm5dE"
+   class="card-image-top" alt="" style="height: 13em;">
+    <div class="card-body">
+      <h5 class="card-title">Crossroads</h5>
+      <p class="card-text">Date with Git is an initiative by Team Crossroads</p>
+    </div>
+  </div>
+  </a>
+  </div>
 </div>
       </div>
     </section>
    
+    <section class="skill p-5" id="skill-section">
+        <div class="container">
+          <h1 class="text-center">Skills</h1>
+          <div class="row p-3">
+            <div class="col-md-4 mt-3">
+              <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#">HTML Coding$CSS</a>
+                </nav>
+              </div><br>
+              <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#">C Programming</a>
+                </nav>
+              </div><br>
+              <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#">Javascript</a>
+                </nav>
+              </div><br>
+              <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#">Java</a>
+                </nav>
+              </div><br>
+              <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#">DBMS</a>
+                </nav>
+              </div><br>
+              <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                  <a class="navbar-brand" href="#">Bootstrap</a>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
     <section class="p-5 bg-light" id="contact-section">
       <div class="container">
         <h1 class="text-center">Contact me</h1>
@@ -245,14 +279,20 @@
       </div>
     </section>
     
-   <footer class="bg-info">
+   <footer class="footer">
      <div class="container">
        <div class="row">
          <div class="col-md-12 text-center text-white">
            <a href="https://www.facebook.com" title="website name">
           <i class="fab fa-facebook-square"></i></a>
           <a href="https://www.instagram.com" title="website name">
-          <i class="fab fa-instagram-square"></i></a>
+          <i class="fab fa-instagram-square"></i></a> <a href="https://www.gmail.com" title="website name">
+            <i class="fas fa-envelope-open"></i></a>
+            <a href="https://www.youtube.com" title="website name">
+            <i class="fab fa-youtube"></i></a>
+            <a href="https://www.linkedin.com" title="website name">
+              <i class="fab fa-linkedin-in"></i></a>
+
            <p>Copyrights</p>
          </div>
        </div>
